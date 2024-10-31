@@ -54,7 +54,7 @@ Qʀɪꜱ : tanya owner ᴋɪɴɢᴡᴀʏꜱɢᴀɴᴢʙᴏᴛᴢ
             )
             CONFIRM_PAYMENT.remove(get.id)
             buttons = [
-                [InlineKeyboardButton("📞 ᴏᴡɴᴇʀ", url="https://t.me/VALLS_OFFICIAL")]
+                [InlineKeyboardButton("📞 ᴏᴡɴᴇʀ", url="https://t.me/XwyWays")]
             ]
             return await bot.send_message(
                 user_id,
