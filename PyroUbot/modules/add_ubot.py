@@ -83,7 +83,7 @@ async def _(client, callback_query):
         waktu = exp.strftime("%d-%m-%Y") if exp else "None"
         return await callback_query.edit_message_text(
             f"""
-<blockquote>ᴋɪɴɢᴡᴀʏꜱɢᴀɴᴢʙᴏᴛᴢ ᴘʀᴇᴍ
+<blockquote>ᴡᴀʏꜱᴍᴏᴅᴢᴢʙᴏᴛ ᴘʀᴇᴍ
   ꜱᴛᴀᴛᴜꜱ : ᴘʀᴇᴍɪᴜᴍ
   ᴘʀᴇꜰɪxᴇꜱ : {prefix[0]}
   ᴇxᴘɪʀᴇᴅ_ᴏɴ : {waktu}</b></blockquote>
