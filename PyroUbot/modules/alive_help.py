@@ -124,7 +124,7 @@ async def _(client, callback_query):
         return await callback_query.answer("ꜱudah terupdate", True)
     else:
         await callback_query.answer("ꜱedang memproꜱeꜱ update.....", True)
-    os.execl(sys.executable, sys.executable, "-m", "ᴅɪᴅɪɴᴜʙᴏᴛ-ᴘʀᴇᴍ")
+    os.execl(sys.executable, sys.executable, "-m", "ᴡᴀʏꜱᴍᴏᴅᴢᴢʙᴏᴛ-ᴘʀᴇᴍ")
 
 
 @PY.UBOT("help")
@@ -186,7 +186,7 @@ async def help_callback(client, callback_query):
         button = [[InlineKeyboardButton("⊲ ʙᴀᴄᴋ", callback_data="help_back")]]
         await callback_query.edit_message_text(
             text=text 
-            + '\n<blockquote><b>ᴅɪᴅɪɴᴜʙᴏᴛ-ᴘʀᴇᴍ ᴅᴇᴠ -<a href="tg://user?id=6845234638"> ᴅɪᴅɪɴᴜʙᴏᴛ-ᴘʀᴇᴍ</a> </b></blockquote>',
+            + '\n<blockquote><b>ᴡᴀʏꜱᴍᴏᴅᴢᴢʙᴏᴛ-ᴘʀᴇᴍ ᴅᴇᴠ -<a href="tg://user?id=5082955178"> ᴡᴀʏꜱᴍᴏᴅᴢᴢʙᴏᴛ-ᴘʀᴇᴍ</a> </b></blockquote>',
             reply_markup=InlineKeyboardMarkup(button),
             disable_web_page_preview=True,
         )
