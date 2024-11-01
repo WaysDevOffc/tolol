@@ -10,7 +10,7 @@ from pyrogram import Client, filters
 from pyrogram.enums import ParseMode 
 from pyrogram.handlers import CallbackQueryHandler, MessageHandler
 from pyrogram.types import Message
-from pytgcalls import PyTgCalls
+from pytgcalls import pytgcalls
 from pytgcalls import filters as fl
 from pyromod import listen
 from PyroUbot.config import *
